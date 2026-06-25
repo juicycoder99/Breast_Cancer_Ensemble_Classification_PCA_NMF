@@ -1,9 +1,8 @@
 # Breast Cancer Detection using an Ensemble of PCA/NMF Features with Logistic Regression and SVM
 
-## Authors and Affiliations
+## Author
 
-Jibril Hussaini, Department of Computer Science, Bishop's University. CS504, Intelligent Systems and
-Neural Nets.
+Jibril Hussaini
 
 ## Abstract
 

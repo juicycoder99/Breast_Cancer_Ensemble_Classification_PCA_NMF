@@ -1,7 +1,7 @@
 # Breast Cancer Detection using Ensemble Classifiers
 
-Course project for **Programming Languages for Data Analysis (CS504)**, Department of Computer
-Science, Bishop's University.
+Detecting malignant tumours in the Breast Cancer Wisconsin (Diagnostic) dataset with a PCA/NMF
+feature-extraction ensemble and majority-vote classifiers.
 
 ## Overview
 
@@ -10,7 +10,7 @@ feature-extraction methods (PCA and NMF) with two classifiers (Logistic Regressi
 merges their predictions by majority voting. The number of extracted components is tuned on a
 validation set, and the best model is evaluated on a held-out test set.
 
-- Notebook: [`Project2_BreastCancer_Ensemble.ipynb`](Project2_BreastCancer_Ensemble.ipynb)
+- Notebook: [`breast_cancer_ensemble.ipynb`](breast_cancer_ensemble.ipynb)
 - Report: [`report.md`](report.md)
 
 ## Method
@@ -46,14 +46,14 @@ The confusion matrix had no false positives and two false negatives.
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
-jupyter notebook Project2_BreastCancer_Ensemble.ipynb
+jupyter notebook breast_cancer_ensemble.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Project2_BreastCancer_Ensemble.ipynb` | Full solution |
+| `breast_cancer_ensemble.ipynb` | Full implementation and analysis |
 | `report.md` | Written report |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
 | `breast-cancer.csv` | Breast Cancer Wisconsin (Diagnostic) dataset |
-| `CS504_Project.pdf` | Project description |
